@@ -36,8 +36,51 @@ def prepare_datasets(test_size):
     # laod data
     X, y = load_data(DATA_PATH)
 
-    # create the train/test split
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size)
+    positiveIndex = []
+    negativeIndex = []
+    for i, train in enumerate(y):
+        if train == 1:
+            positiveIndex.append(i)
+        if train == 0:
+            negativeIndex.append(i)
+
+    positiveCases = X[positiveIndex]
+    negativeCases = X[negativeIndex]
+
+    positiveLabels = y[positiveIndex]
+    negativeLabels = y[negativeIndex]
+
+
+    #test   
+    n = 14
+    index = np.random.choice(positiveCases.shape[0], n, replace=False)
+    X_test_positive = positiveCases[index]
+    y_test_positive = positiveLabels[index]
+
+    n = 9
+    index = np.random.choice(negativeCases.shape[0], n, replace=False)
+    X_test_negative = negativeCases[index]
+    y_test_negative = negativeLabels[index]
+
+
+    X_test = np.concatenate((X_test_positive, X_test_negative), axis=0)
+    y_test = np.concatenate((y_test_positive, y_test_negative), axis=0)
+
+    
+    #train
+    n = 59
+    index = np.random.choice(positiveCases.shape[0], n, replace=False)
+    X_train_positive = positiveCases[index]
+    y_train_positive = positiveLabels[index]
+
+    n = 39
+    index = np.random.choice(negativeCases.shape[0], n, replace=False)
+    X_train_negative = negativeCases[index]
+    y_train_negative = negativeLabels[index]
+
+
+    X_train = np.concatenate((X_train_positive, X_train_negative), axis=0)
+    y_train = np.concatenate((y_train_positive, y_train_negative), axis=0)
 
     return X_train, X_test, y_train, y_test
 
