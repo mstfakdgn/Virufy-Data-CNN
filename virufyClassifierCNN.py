@@ -54,12 +54,15 @@ def prepare_datasets(test_size, validation_size):
     index = np.random.choice(positiveCases.shape[0], n, replace=False)
     X_test_positive = positiveCases[index]
     y_test_positive = positiveLabels[index]
+    positiveCases = np.delete(positiveCases, index, axis=0)
+    positiveLabels = np.delete(positiveLabels, index, axis=0)
 
     n = 9
     index = np.random.choice(negativeCases.shape[0], n, replace=False)
     X_test_negative = negativeCases[index]
     y_test_negative = negativeLabels[index]
-
+    negativeCases = np.delete(negativeCases, index, axis=0)
+    negativeLabels = np.delete(negativeLabels, index, axis=0)
 
     X_test = np.concatenate((X_test_positive, X_test_negative), axis=0)
     y_test = np.concatenate((y_test_positive, y_test_negative), axis=0)
@@ -70,12 +73,15 @@ def prepare_datasets(test_size, validation_size):
     index = np.random.choice(positiveCases.shape[0], n, replace=False)
     X_validation_positive = positiveCases[index]
     y_validation_positive = positiveLabels[index]
+    positiveCases = np.delete(positiveCases, index, axis=0)
+    positiveLabels = np.delete(positiveLabels, index, axis=0)
 
     n = 7
     index = np.random.choice(negativeCases.shape[0], n, replace=False)
     X_validation_negative = negativeCases[index]
     y_validation_negative = negativeLabels[index]
-
+    negativeCases = np.delete(negativeCases, index, axis=0)
+    negativeLabels = np.delete(negativeLabels, index, axis=0)
 
     X_validation = np.concatenate((X_validation_positive, X_validation_negative), axis=0)
     y_validation = np.concatenate((y_validation_positive, y_validation_negative), axis=0)
@@ -86,12 +92,15 @@ def prepare_datasets(test_size, validation_size):
     index = np.random.choice(positiveCases.shape[0], n, replace=False)
     X_train_positive = positiveCases[index]
     y_train_positive = positiveLabels[index]
+    positiveCases = np.delete(positiveCases, index, axis=0)
+    positiveLabels = np.delete(positiveLabels, index, axis=0)
 
     n = 32
     index = np.random.choice(negativeCases.shape[0], n, replace=False)
     X_train_negative = negativeCases[index]
     y_train_negative = negativeLabels[index]
-
+    negativeCases = np.delete(negativeCases, index, axis=0)
+    negativeLabels = np.delete(negativeLabels, index, axis=0)
 
     X_train = np.concatenate((X_train_positive, X_train_negative), axis=0)
     y_train = np.concatenate((y_train_positive, y_train_negative), axis=0)

@@ -6,7 +6,7 @@
             "Train"
         ],
         [
-            "              precision    recall  f1-score   support\n\n       covid       1.00      0.75      0.86        12\n   not covid       0.79      1.00      0.88        11\n\n    accuracy                           0.87        23\n   macro avg       0.89      0.88      0.87        23\nweighted avg       0.90      0.87      0.87        23\n",
+            "              precision    recall  f1-score   support\n\n       covid       0.56      0.71      0.63         7\n   not covid       0.86      0.75      0.80        16\n\n    accuracy                           0.74        23\n   macro avg       0.71      0.73      0.71        23\nweighted avg       0.77      0.74      0.75        23\n",
             "1",
             "Test"
         ],
@@ -16,7 +16,7 @@
             "Train"
         ],
         [
-            "              precision    recall  f1-score   support\n\n       covid       1.00      1.00      1.00         9\n   not covid       1.00      1.00      1.00        14\n\n    accuracy                           1.00        23\n   macro avg       1.00      1.00      1.00        23\nweighted avg       1.00      1.00      1.00        23\n",
+            "              precision    recall  f1-score   support\n\n       covid       0.67      0.75      0.71         8\n   not covid       0.86      0.80      0.83        15\n\n    accuracy                           0.78        23\n   macro avg       0.76      0.78      0.77        23\nweighted avg       0.79      0.78      0.79        23\n",
             "2",
             "Test"
         ],
@@ -26,7 +26,7 @@
             "Train"
         ],
         [
-            "              precision    recall  f1-score   support\n\n       covid       1.00      1.00      1.00         9\n   not covid       1.00      1.00      1.00        14\n\n    accuracy                           1.00        23\n   macro avg       1.00      1.00      1.00        23\nweighted avg       1.00      1.00      1.00        23\n",
+            "              precision    recall  f1-score   support\n\n       covid       0.56      1.00      0.71         5\n   not covid       1.00      0.78      0.88        18\n\n    accuracy                           0.83        23\n   macro avg       0.78      0.89      0.79        23\nweighted avg       0.90      0.83      0.84        23\n",
             "3",
             "Test"
         ],
@@ -36,7 +36,7 @@
             "Train"
         ],
         [
-            "              precision    recall  f1-score   support\n\n       covid       1.00      1.00      1.00         9\n   not covid       1.00      1.00      1.00        14\n\n    accuracy                           1.00        23\n   macro avg       1.00      1.00      1.00        23\nweighted avg       1.00      1.00      1.00        23\n",
+            "              precision    recall  f1-score   support\n\n       covid       0.89      0.89      0.89         9\n   not covid       0.93      0.93      0.93        14\n\n    accuracy                           0.91        23\n   macro avg       0.91      0.91      0.91        23\nweighted avg       0.91      0.91      0.91        23\n",
             "4",
             "Test"
         ],
@@ -46,7 +46,7 @@
             "Train"
         ],
         [
-            "              precision    recall  f1-score   support\n\n       covid       0.89      0.73      0.80        11\n   not covid       0.79      0.92      0.85        12\n\n    accuracy                           0.83        23\n   macro avg       0.84      0.82      0.82        23\nweighted avg       0.84      0.83      0.82        23\n",
+            "              precision    recall  f1-score   support\n\n       covid       1.00      0.64      0.78        14\n   not covid       0.64      1.00      0.78         9\n\n    accuracy                           0.78        23\n   macro avg       0.82      0.82      0.78        23\nweighted avg       0.86      0.78      0.78        23\n",
             "5",
             "Test"
         ]
@@ -69,12 +69,12 @@
         [
             [
                 [
-                    9,
-                    3
+                    5,
+                    2
                 ],
                 [
-                    0,
-                    11
+                    4,
+                    12
                 ]
             ],
             "1",
@@ -97,12 +97,12 @@
         [
             [
                 [
-                    9,
-                    0
+                    6,
+                    2
                 ],
                 [
-                    0,
-                    14
+                    3,
+                    12
                 ]
             ],
             "2",
@@ -125,11 +125,11 @@
         [
             [
                 [
-                    9,
+                    5,
                     0
                 ],
                 [
-                    0,
+                    4,
                     14
                 ]
             ],
@@ -153,12 +153,12 @@
         [
             [
                 [
-                    9,
-                    0
+                    8,
+                    1
                 ],
                 [
-                    0,
-                    14
+                    1,
+                    13
                 ]
             ],
             "4",
@@ -181,12 +181,12 @@
         [
             [
                 [
-                    8,
-                    3
+                    9,
+                    5
                 ],
                 [
-                    1,
-                    11
+                    0,
+                    9
                 ]
             ],
             "5",
@@ -200,7 +200,7 @@
             "Train"
         ],
         [
-            0.875,
+            0.7321428571428571,
             "1",
             "Test"
         ],
@@ -210,7 +210,7 @@
             "Train"
         ],
         [
-            1.0,
+            0.775,
             "2",
             "Test"
         ],
@@ -220,7 +220,7 @@
             "Train"
         ],
         [
-            1.0,
+            0.8888888888888888,
             "3",
             "Test"
         ],
@@ -230,7 +230,7 @@
             "Train"
         ],
         [
-            1.0,
+            0.9087301587301587,
             "4",
             "Test"
         ],
@@ -240,7 +240,7 @@
             "Train"
         ],
         [
-            0.8219696969696969,
+            0.8214285714285714,
             "5",
             "Test"
         ]
@@ -252,7 +252,7 @@
             "Train"
         ],
         [
-            0.8695652173913043,
+            0.7391304347826086,
             "1",
             "Test"
         ],
@@ -262,7 +262,7 @@
             "Train"
         ],
         [
-            1.0,
+            0.782608695652174,
             "2",
             "Test"
         ],
@@ -272,7 +272,7 @@
             "Train"
         ],
         [
-            1.0,
+            0.8260869565217391,
             "3",
             "Test"
         ],
@@ -282,7 +282,7 @@
             "Train"
         ],
         [
-            1.0,
+            0.9130434782608695,
             "4",
             "Test"
         ],
@@ -292,7 +292,7 @@
             "Train"
         ],
         [
-            0.8260869565217391,
+            0.782608695652174,
             "5",
             "Test"
         ]
@@ -304,7 +304,7 @@
             "Train"
         ],
         [
-            0.3611575592573076,
+            0.5107539184552492,
             "1",
             "Test"
         ],
@@ -314,7 +314,7 @@
             "Train"
         ],
         [
-            0.0,
+            0.4662524041201569,
             "2",
             "Test"
         ],
@@ -324,7 +324,7 @@
             "Train"
         ],
         [
-            0.0,
+            0.41702882811414954,
             "3",
             "Test"
         ],
@@ -334,7 +334,7 @@
             "Train"
         ],
         [
-            0.0,
+            0.29488391230979427,
             "4",
             "Test"
         ],
@@ -344,7 +344,7 @@
             "Train"
         ],
         [
-            0.41702882811414954,
+            0.4662524041201569,
             "5",
             "Test"
         ]

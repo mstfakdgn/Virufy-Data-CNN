@@ -1,52 +1,52 @@
 {
     "raports": [
         [
-            "              precision    recall  f1-score   support\n\n       covid       0.97      0.97      0.97        39\n   not covid       0.98      0.98      0.98        59\n\n    accuracy                           0.98        98\n   macro avg       0.98      0.98      0.98        98\nweighted avg       0.98      0.98      0.98        98\n",
+            "              precision    recall  f1-score   support\n\n       covid       1.00      0.97      0.99        40\n   not covid       0.98      1.00      0.99        58\n\n    accuracy                           0.99        98\n   macro avg       0.99      0.99      0.99        98\nweighted avg       0.99      0.99      0.99        98\n",
             "1",
-            "Train"
-        ],
-        [
-            "              precision    recall  f1-score   support\n\n       covid       1.00      1.00      1.00         9\n   not covid       1.00      1.00      1.00        14\n\n    accuracy                           1.00        23\n   macro avg       1.00      1.00      1.00        23\nweighted avg       1.00      1.00      1.00        23\n",
-            "1",
-            "Test"
-        ],
-        [
-            "              precision    recall  f1-score   support\n\n       covid       0.97      1.00      0.99        38\n   not covid       1.00      0.98      0.99        60\n\n    accuracy                           0.99        98\n   macro avg       0.99      0.99      0.99        98\nweighted avg       0.99      0.99      0.99        98\n",
-            "2",
-            "Train"
-        ],
-        [
-            "              precision    recall  f1-score   support\n\n       covid       1.00      1.00      1.00         9\n   not covid       1.00      1.00      1.00        14\n\n    accuracy                           1.00        23\n   macro avg       1.00      1.00      1.00        23\nweighted avg       1.00      1.00      1.00        23\n",
-            "2",
-            "Test"
-        ],
-        [
-            "              precision    recall  f1-score   support\n\n       covid       0.97      0.97      0.97        39\n   not covid       0.98      0.98      0.98        59\n\n    accuracy                           0.98        98\n   macro avg       0.98      0.98      0.98        98\nweighted avg       0.98      0.98      0.98        98\n",
-            "3",
             "Train"
         ],
         [
             "              precision    recall  f1-score   support\n\n       covid       0.78      0.88      0.82         8\n   not covid       0.93      0.87      0.90        15\n\n    accuracy                           0.87        23\n   macro avg       0.85      0.87      0.86        23\nweighted avg       0.88      0.87      0.87        23\n",
-            "3",
+            "1",
             "Test"
         ],
         [
             "              precision    recall  f1-score   support\n\n       covid       0.97      1.00      0.99        38\n   not covid       1.00      0.98      0.99        60\n\n    accuracy                           0.99        98\n   macro avg       0.99      0.99      0.99        98\nweighted avg       0.99      0.99      0.99        98\n",
+            "2",
+            "Train"
+        ],
+        [
+            "              precision    recall  f1-score   support\n\n       covid       0.89      0.73      0.80        11\n   not covid       0.79      0.92      0.85        12\n\n    accuracy                           0.83        23\n   macro avg       0.84      0.82      0.82        23\nweighted avg       0.84      0.83      0.82        23\n",
+            "2",
+            "Test"
+        ],
+        [
+            "              precision    recall  f1-score   support\n\n       covid       0.95      0.97      0.96        38\n   not covid       0.98      0.97      0.97        60\n\n    accuracy                           0.97        98\n   macro avg       0.97      0.97      0.97        98\nweighted avg       0.97      0.97      0.97        98\n",
+            "3",
+            "Train"
+        ],
+        [
+            "              precision    recall  f1-score   support\n\n       covid       0.67      0.67      0.67         9\n   not covid       0.79      0.79      0.79        14\n\n    accuracy                           0.74        23\n   macro avg       0.73      0.73      0.73        23\nweighted avg       0.74      0.74      0.74        23\n",
+            "3",
+            "Test"
+        ],
+        [
+            "              precision    recall  f1-score   support\n\n       covid       1.00      1.00      1.00        39\n   not covid       1.00      1.00      1.00        59\n\n    accuracy                           1.00        98\n   macro avg       1.00      1.00      1.00        98\nweighted avg       1.00      1.00      1.00        98\n",
             "4",
             "Train"
         ],
         [
-            "              precision    recall  f1-score   support\n\n       covid       0.78      1.00      0.88         7\n   not covid       1.00      0.88      0.93        16\n\n    accuracy                           0.91        23\n   macro avg       0.89      0.94      0.90        23\nweighted avg       0.93      0.91      0.92        23\n",
+            "              precision    recall  f1-score   support\n\n       covid       0.89      0.73      0.80        11\n   not covid       0.79      0.92      0.85        12\n\n    accuracy                           0.83        23\n   macro avg       0.84      0.82      0.82        23\nweighted avg       0.84      0.83      0.82        23\n",
             "4",
             "Test"
         ],
         [
-            "              precision    recall  f1-score   support\n\n       covid       0.97      0.97      0.97        39\n   not covid       0.98      0.98      0.98        59\n\n    accuracy                           0.98        98\n   macro avg       0.98      0.98      0.98        98\nweighted avg       0.98      0.98      0.98        98\n",
+            "              precision    recall  f1-score   support\n\n       covid       1.00      1.00      1.00        39\n   not covid       1.00      1.00      1.00        59\n\n    accuracy                           1.00        98\n   macro avg       1.00      1.00      1.00        98\nweighted avg       1.00      1.00      1.00        98\n",
             "5",
             "Train"
         ],
         [
-            "              precision    recall  f1-score   support\n\n       covid       0.89      1.00      0.94         8\n   not covid       1.00      0.93      0.97        15\n\n    accuracy                           0.96        23\n   macro avg       0.94      0.97      0.95        23\nweighted avg       0.96      0.96      0.96        23\n",
+            "              precision    recall  f1-score   support\n\n       covid       0.67      0.75      0.71         8\n   not covid       0.86      0.80      0.83        15\n\n    accuracy                           0.78        23\n   macro avg       0.76      0.78      0.77        23\nweighted avg       0.79      0.78      0.79        23\n",
             "5",
             "Test"
         ]
@@ -55,71 +55,15 @@
         [
             [
                 [
-                    38,
+                    39,
                     1
                 ],
                 [
-                    1,
+                    0,
                     58
                 ]
             ],
             "1",
-            "Train"
-        ],
-        [
-            [
-                [
-                    9,
-                    0
-                ],
-                [
-                    0,
-                    14
-                ]
-            ],
-            "1",
-            "Test"
-        ],
-        [
-            [
-                [
-                    38,
-                    0
-                ],
-                [
-                    1,
-                    59
-                ]
-            ],
-            "2",
-            "Train"
-        ],
-        [
-            [
-                [
-                    9,
-                    0
-                ],
-                [
-                    0,
-                    14
-                ]
-            ],
-            "2",
-            "Test"
-        ],
-        [
-            [
-                [
-                    38,
-                    1
-                ],
-                [
-                    1,
-                    58
-                ]
-            ],
-            "3",
             "Train"
         ],
         [
@@ -133,7 +77,7 @@
                     13
                 ]
             ],
-            "3",
+            "1",
             "Test"
         ],
         [
@@ -147,18 +91,74 @@
                     59
                 ]
             ],
+            "2",
+            "Train"
+        ],
+        [
+            [
+                [
+                    8,
+                    3
+                ],
+                [
+                    1,
+                    11
+                ]
+            ],
+            "2",
+            "Test"
+        ],
+        [
+            [
+                [
+                    37,
+                    1
+                ],
+                [
+                    2,
+                    58
+                ]
+            ],
+            "3",
+            "Train"
+        ],
+        [
+            [
+                [
+                    6,
+                    3
+                ],
+                [
+                    3,
+                    11
+                ]
+            ],
+            "3",
+            "Test"
+        ],
+        [
+            [
+                [
+                    39,
+                    0
+                ],
+                [
+                    0,
+                    59
+                ]
+            ],
             "4",
             "Train"
         ],
         [
             [
                 [
-                    7,
-                    0
+                    8,
+                    3
                 ],
                 [
-                    2,
-                    14
+                    1,
+                    11
                 ]
             ],
             "4",
@@ -167,12 +167,12 @@
         [
             [
                 [
-                    38,
-                    1
+                    39,
+                    0
                 ],
                 [
-                    1,
-                    58
+                    0,
+                    59
                 ]
             ],
             "5",
@@ -181,12 +181,12 @@
         [
             [
                 [
-                    8,
-                    0
+                    6,
+                    2
                 ],
                 [
-                    1,
-                    14
+                    3,
+                    12
                 ]
             ],
             "5",
@@ -195,156 +195,156 @@
     ],
     "aucScores": [
         [
-            0.9787049109083007,
+            0.9874999999999999,
             "1",
-            "Train"
-        ],
-        [
-            1.0,
-            "1",
-            "Test"
-        ],
-        [
-            0.9916666666666667,
-            "2",
-            "Train"
-        ],
-        [
-            1.0,
-            "2",
-            "Test"
-        ],
-        [
-            0.9787049109083007,
-            "3",
             "Train"
         ],
         [
             0.8708333333333333,
-            "3",
+            "1",
             "Test"
         ],
         [
             0.9916666666666667,
+            "2",
+            "Train"
+        ],
+        [
+            0.8219696969696969,
+            "2",
+            "Test"
+        ],
+        [
+            0.9701754385964912,
+            "3",
+            "Train"
+        ],
+        [
+            0.7261904761904762,
+            "3",
+            "Test"
+        ],
+        [
+            1.0,
             "4",
             "Train"
         ],
         [
-            0.9375,
+            0.8219696969696969,
             "4",
             "Test"
         ],
         [
-            0.9787049109083007,
+            1.0,
             "5",
             "Train"
         ],
         [
-            0.9666666666666667,
+            0.775,
             "5",
             "Test"
         ]
     ],
     "accuricies": [
         [
-            0.9795918367346939,
-            "1",
-            "Train"
-        ],
-        [
-            1.0,
-            "1",
-            "Test"
-        ],
-        [
             0.9897959183673469,
-            "2",
-            "Train"
-        ],
-        [
-            1.0,
-            "2",
-            "Test"
-        ],
-        [
-            0.9795918367346939,
-            "3",
+            "1",
             "Train"
         ],
         [
             0.8695652173913043,
-            "3",
+            "1",
             "Test"
         ],
         [
             0.9897959183673469,
+            "2",
+            "Train"
+        ],
+        [
+            0.8260869565217391,
+            "2",
+            "Test"
+        ],
+        [
+            0.9693877551020408,
+            "3",
+            "Train"
+        ],
+        [
+            0.7391304347826086,
+            "3",
+            "Test"
+        ],
+        [
+            1.0,
             "4",
             "Train"
         ],
         [
-            0.9130434782608695,
+            0.8260869565217391,
             "4",
             "Test"
         ],
         [
-            0.9795918367346939,
+            1.0,
             "5",
             "Train"
         ],
         [
-            0.9565217391304348,
+            0.782608695652174,
             "5",
             "Test"
         ]
     ],
     "errors": [
         [
-            0.14285714285714285,
-            "1",
-            "Train"
-        ],
-        [
-            0.0,
-            "1",
-            "Test"
-        ],
-        [
             0.10101525445522107,
-            "2",
-            "Train"
-        ],
-        [
-            0.0,
-            "2",
-            "Test"
-        ],
-        [
-            0.14285714285714285,
-            "3",
+            "1",
             "Train"
         ],
         [
             0.3611575592573076,
-            "3",
+            "1",
             "Test"
         ],
         [
             0.10101525445522107,
+            "2",
+            "Train"
+        ],
+        [
+            0.41702882811414954,
+            "2",
+            "Test"
+        ],
+        [
+            0.1749635530559413,
+            "3",
+            "Train"
+        ],
+        [
+            0.5107539184552492,
+            "3",
+            "Test"
+        ],
+        [
+            0.0,
             "4",
             "Train"
         ],
         [
-            0.29488391230979427,
+            0.41702882811414954,
             "4",
             "Test"
         ],
         [
-            0.14285714285714285,
+            0.0,
             "5",
             "Train"
         ],
         [
-            0.20851441405707477,
+            0.4662524041201569,
             "5",
             "Test"
         ]
