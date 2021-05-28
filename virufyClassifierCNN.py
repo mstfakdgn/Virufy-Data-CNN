@@ -22,6 +22,7 @@ def load_data(data_path):
     
     mfccsArray = []
     for mfcc in data['MFCCs']:
+        print(np.array(mfcc).shape)
         mfccsArray.append(mfcc)
 
     X = np.array(data["MFCCs"])
